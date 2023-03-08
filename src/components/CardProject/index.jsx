@@ -52,7 +52,7 @@ const Container = styled.div`
 
   img {
     position: absolute;
-    filter: blur(2px);
+    filter: brightness(30%);
     opacity: 0;
     width: 100%;
     height: 100%;

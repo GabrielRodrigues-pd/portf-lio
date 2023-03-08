@@ -6,6 +6,7 @@ import { MdTimeline, MdStickyNote2, MdMovie } from 'react-icons/md'
 import project1 from '../../assets/project1.png'
 import img2 from '../../assets/img2.png'
 import img5 from '../../assets/img5.png'
+import img6 from '../../assets/img6.png'
 
 import { Header } from '../../components/Header'
 import { Grid } from '../../components/Grid'
@@ -52,7 +53,7 @@ export const Project = () => {
           icon={<BiCookie size={30} />}
           desc="Aqui você pode testar sua sorte tirando uma frase do biscoito da sorte"
           skill={['HTML5', 'CSS3', 'JS']}
-          img={project1}
+          img={img6}
           git="https://github.com/GabrielRodrigues-pd/biscoito-da-sorte"
           view="https://biscoito-sortudo.netlify.app"
         />
