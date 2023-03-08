@@ -37,20 +37,20 @@ export const Training = () => {
       />
       <CardSkills
         name="Origamid - UX/IU Design"
-        text="A minha mais nova experiência foi o Explorer, em que fiz uma formação para iniciantes no mercado de programação. O explore me proporcionou aprimorar meus conhecimentos em JavaScript, ReactJS e Node"
+        text="Com esse curso eu aprimorei meus conhecimentos Design, UI/UX."
         time="33h"
         tec={['UX/IU', 'Figma']}
       />
       <CardSkills
         name="Programador BR"
-        text="A minha mais nova experiência foi o Explorer, em que fiz uma formação para iniciantes no mercado de programação. O explore me proporcionou aprimorar meus conhecimentos em JavaScript, ReactJS e Node"
+        text="Curso online que tem como objetivo ensinar programação do zero para iniciantes e aprimorar habilidades de programadores experientes."
         time="43h"
         tec={['JS', 'HTML5', 'CSS3', 'React']}
       />
       <CardSkills
         name="Origamid - React Completo"
-        text="A minha mais nova experiência foi o Explorer, em que fiz uma formação para iniciantes no mercado de programação. O explore me proporcionou aprimorar meus conhecimentos em JavaScript, ReactJS e Node"
-        time="43h"
+        text="Na Origamid eu pude me aprofundar mais em ReactJS, JS e desenvolver projetos bem legais."
+        time="50h"
         tec={['React']}
       />
       <Footer />
