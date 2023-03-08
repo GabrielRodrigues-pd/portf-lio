@@ -53,6 +53,8 @@ export const Project = () => {
           desc="Aqui você pode testar sua sorte tirando uma frase do biscoito da sorte"
           skill={['HTML5', 'CSS3', 'JS']}
           img={project1}
+          git="https://github.com/GabrielRodrigues-pd/biscoito-da-sorte"
+          view="https://biscoito-sortudo.netlify.app"
         />
         <CardProject
           title="FocusTime"
