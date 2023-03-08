@@ -8,7 +8,11 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.COR.TITLE};
 
   @media (max-height: 700px) {
-    height: 150vh;
+    height: 200vh;
+  }
+
+  @media (max-width: 1015px) {
+    height: 200vh;
   }
 `
 

@@ -29,10 +29,19 @@ export function About() {
             JavaScript, ReactJS.
           </p>
           <div className="btn">
-            <a href="https://api.whatsapp.com/send?phone=5583996121185&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?">
+            <a
+              href="https://api.whatsapp.com/send?phone=5583996121185&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?"
+              target="_blank"
+            >
               Contato
             </a>
-            <a>Baixar CV</a>
+            <a
+              href="https://drive.google.com/file/d/1-0-xckQtclegYldlY6kdFUeqbdkACYTz/view?usp=share_link"
+              download="Currículo Virtual"
+              target="_blank"
+            >
+              Baixar CV
+            </a>
           </div>
         </div>
       </Section>
