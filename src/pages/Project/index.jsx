@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Section } from './styles'
 import { RiRocketFill } from 'react-icons/ri'
+import { BiCookie } from 'react-icons/bi'
+import { MdTimeline, MdStickyNote2, MdMovie } from 'react-icons/md'
 import project1 from '../../assets/project1.png'
 import img2 from '../../assets/img2.png'
 import img5 from '../../assets/img5.png'
@@ -27,7 +29,7 @@ export const Project = () => {
       <Section>
         <CardProject
           title="RocketMovies"
-          icon={<RiRocketFill size={30} />}
+          icon={<MdMovie size={30} />}
           desc="RocketMovies é uma plataforma que possibilita você armazenar seus filmes e séries favoritos.
           Feito com ReactJS, Styled-Component, NodeJs, Knex."
           skill={['ReactJS', 'NodeJS', 'Knex']}
@@ -38,7 +40,7 @@ export const Project = () => {
 
         <CardProject
           title="RocketNote"
-          icon={<RiRocketFill size={30} />}
+          icon={<MdStickyNote2 size={30} />}
           desc="RocketNote é uma plataforma que depois que você se cadastra é possível você armazenar suas anotações."
           skill={['ReactJS', 'NodeJS', 'Knex']}
           img={img2}
@@ -47,14 +49,14 @@ export const Project = () => {
         />
         <CardProject
           title="Biscoito-da-sorte"
-          icon={<RiRocketFill size={30} />}
+          icon={<BiCookie size={30} />}
           desc="Aqui você pode testar sua sorte tirando uma frase do biscoito da sorte"
           skill={['HTML5', 'CSS3', 'JS']}
           img={project1}
         />
         <CardProject
           title="FocusTime"
-          icon={<RiRocketFill size={30} />}
+          icon={<MdTimeline size={30} />}
           desc="Se liga nesse FocusTimer stage 06 do Explorer que deixa você fazer combinações de sons específicos e relaxantes para que você tenha mais foco nos estudos."
           skill={['HTML5', 'CSS3', 'JS']}
           img={img5}
