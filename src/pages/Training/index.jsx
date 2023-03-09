@@ -50,7 +50,7 @@ export const Training = () => {
       <CardSkills
         name="Origamid - React Completo"
         text="Na Origamid eu pude me aprofundar mais em ReactJS, JS e desenvolver projetos bem legais."
-        time="50h"
+        time="18h"
         tec={['React']}
       />
       <Footer />
