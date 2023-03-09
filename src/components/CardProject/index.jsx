@@ -49,6 +49,9 @@ const Container = styled.div`
   margin-bottom: 3rem;
   position: relative;
   color: ${({ theme }) => theme.COR.TITLE};
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   img {
     position: absolute;
