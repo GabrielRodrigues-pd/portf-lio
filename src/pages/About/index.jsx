@@ -36,7 +36,7 @@ export function About() {
               Contato
             </a>
             <a
-              href="https://drive.google.com/file/d/1-0-xckQtclegYldlY6kdFUeqbdkACYTz/view?usp=share_link"
+              href="https://drive.google.com/file/d/1noyXhrGgMc48UEF7F7iiAOGTmzTDoUJb/view?usp=share_link"
               download="Currículo Virtual"
               target="_blank"
             >
