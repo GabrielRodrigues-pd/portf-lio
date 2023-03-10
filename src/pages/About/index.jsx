@@ -22,7 +22,7 @@ export function About() {
           </p>
           <p>
             Estou compromissado em mudar a realidade a minha volta através da
-            programação
+            programação.
           </p>
           <p>
             Tenho 3 anos de experiência com essas tecnologias: HTML, CSS,
