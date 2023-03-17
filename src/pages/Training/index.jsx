@@ -55,7 +55,7 @@ export const Training = () => {
             />
             <CardSkills
                 name="Angular parte 1 - Alura"
-                text="Neste curso eu pude conhecer o Angular e adquirir os fundamentos básicos, a base para decolar com o framework"
+                text="Neste curso eu pude conhecer o Angular e adquirir os fundamentos básicos, a base para decolar com o framework."
                 time="16h"
                 tec={['Angular']}
             />
