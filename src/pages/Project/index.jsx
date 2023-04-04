@@ -1,19 +1,20 @@
-import React from 'react'
-import { Container, Section } from './styles'
-import { RiRocketFill } from 'react-icons/ri'
-import { BiCookie } from 'react-icons/bi'
-import { MdTimeline, MdStickyNote2, MdMovie } from 'react-icons/md'
-import project1 from '../../assets/project1.png'
-import img2 from '../../assets/img2.png'
-import img5 from '../../assets/img5.png'
-import img6 from '../../assets/img6.png'
+import React from 'react';
+import { Container, Section } from './styles';
+import { RiRocketFill } from 'react-icons/ri';
+import { BiCookie } from 'react-icons/bi';
+import { MdTimeline, MdStickyNote2, MdMovie } from 'react-icons/md';
+import project1 from '../../assets/project1.png';
+import img2 from '../../assets/img2.png';
+import img5 from '../../assets/img5.png';
+import img6 from '../../assets/img6.png';
+import img7 from '../../assets/img7.png';
 
-import { Header } from '../../components/Header'
-import { Grid } from '../../components/Grid'
-import { Footer } from '../../components/Footer'
-import { TitlePage } from '../../components/TitlePage'
-import { CardProject } from '../../components/CardProject'
-import { HeaderMobile } from '../../components/HeaderMobile'
+import { Header } from '../../components/Header';
+import { Grid } from '../../components/Grid';
+import { Footer } from '../../components/Footer';
+import { TitlePage } from '../../components/TitlePage';
+import { CardProject } from '../../components/CardProject';
+import { HeaderMobile } from '../../components/HeaderMobile';
 
 export const Project = () => {
   return (
@@ -66,8 +67,23 @@ export const Project = () => {
           view="https://gabrielrodrigues-pd.github.io/focustimer/"
           git="https://github.com/GabrielRodrigues-pd/focustimer"
         />
+        <CardProject
+          title="AluraSpace"
+          icon={<RiRocketFill size={30} />}
+          desc="Uma aplicação do zero para um teste técnico de uma vaga de desenvolvedor front-end na empresa fictícia Alura Space."
+          skill={['React.JS', 'SCSS']}
+          img={img7}
+          view="https://alura-space-gr.netlify.app/"
+          git="https://github.com/GabrielRodrigues-pd/alura-space"
+        />
+        <CardProject
+          title="Teste"
+          icon={<RiRocketFill size={30} />}
+          desc="Esse projeto está em desenvolvimento."
+          skill={['---', '---']}
+        />
       </Section>
       <Footer />
     </Container>
-  )
-}
+  );
+};

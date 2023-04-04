@@ -1,8 +1,18 @@
-import React from 'react'
-import styled from 'styled-components'
-import { AiFillGithub, AiOutlineFolderView } from 'react-icons/ai'
+import React from 'react';
+import styled from 'styled-components';
+import { AiFillGithub, AiOutlineFolderView } from 'react-icons/ai';
 
-export const CardProject = ({ title, icon, desc, skill, img, git, view }) => {
+import logo from '../../assets/logo.svg';
+
+export const CardProject = ({
+  title,
+  icon,
+  desc,
+  skill,
+  img = logo,
+  git,
+  view,
+}) => {
   return (
     <Container>
       <div className="info">
@@ -23,22 +33,31 @@ export const CardProject = ({ title, icon, desc, skill, img, git, view }) => {
       <div className="access">
         <img src={img} alt="" />
 
-        <div>
-          <AiFillGithub size={30} />
-          <a href={git} target="_blank">
-            github
-          </a>
-        </div>
-        <div>
-          <AiOutlineFolderView size={30} />
-          <a href={view} target="_blank">
-            view
-          </a>
-        </div>
+        {git ? (
+          <div>
+            <AiFillGithub size={30} />
+            <a href={git} target="_blank">
+              github
+            </a>
+          </div>
+        ) : (
+          ''
+        )}
+
+        {view ? (
+          <div>
+            <AiOutlineFolderView size={30} />
+            <a href={view} target="_blank">
+              view
+            </a>
+          </div>
+        ) : (
+          ''
+        )}
       </div>
     </Container>
-  )
-}
+  );
+};
 
 const Container = styled.div`
   border-radius: 0.8rem;
@@ -143,4 +162,4 @@ const Container = styled.div`
       padding-left: 1rem;
     }
   }
-`
+`;
