@@ -1,27 +1,12 @@
-import styled from 'styled-components'
-import logo from '../../assets/logo.svg'
-import { Link } from 'react-router-dom'
-
-const pages = [
-  {
-    name: 'Sobre',
-    url: '/about'
-  },
-  {
-    name: 'Formação',
-    url: '/training'
-  },
-  {
-    name: 'Projetos',
-    url: '/project'
-  },
-  {
-    name: 'Contato',
-    url: 'https://api.whatsapp.com/send?phone=5583996121185&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?'
-  }
-]
+import styled from 'styled-components';
+import logo from '../../assets/logo.svg';
+import { Link, useLocation } from 'react-router-dom';
+import { Links } from './Links';
 
 export function Header() {
+  const local = useLocation();
+  const contatoUrl =
+    'https://api.whatsapp.com/send?phone=5583996121185&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?';
   return (
     <Container>
       <nav>
@@ -30,16 +15,15 @@ export function Header() {
         </Link>
 
         <ul>
-          {pages.map(({ name, url }) => (
-            <li key={name}>
-              <Link to={url}>{name}</Link>
-            </li>
-          ))}
+          <Links name="Sobre" to="/about" />
+          <Links name="Formação" to="/training" />
+          <Links name="Projetos" to="/project" />
+          <Links name="Contato" to={contatoUrl} />
         </ul>
         <img src={logo} alt="logo" className="img2" />
       </nav>
     </Container>
-  )
+  );
 }
 
 export const Container = styled.div`
@@ -82,4 +66,4 @@ export const Container = styled.div`
       }
     }
   }
-`
+`;

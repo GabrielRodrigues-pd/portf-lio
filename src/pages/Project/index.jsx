@@ -80,7 +80,7 @@ export const Project = () => {
           title="Teste"
           icon={<RiRocketFill size={30} />}
           desc="Esse projeto está em desenvolvimento."
-          skill={['---', '---']}
+          skill={['---', '----']}
         />
       </Section>
       <Footer />

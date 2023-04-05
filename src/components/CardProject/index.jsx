@@ -23,9 +23,9 @@ export const CardProject = ({
         <p>{desc}</p>
       </div>
       <div className="technologies">
-        {skill.map(skill => (
-          <div className="tec info" key={skill}>
-            {skill}
+        {skill.map(skils => (
+          <div className="tec info" key={skils}>
+            {skils}
           </div>
         ))}
       </div>
