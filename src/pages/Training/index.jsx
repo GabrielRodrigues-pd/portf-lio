@@ -37,7 +37,7 @@ export const Training = () => {
       />
       <CardSkills
         name="Alura - Formação React"
-        text="Nesta formação, eu percorri uma jornada do Curso React: desenvolvendo com JavaScript ao Curso React: migrando para TypeScript e aprender o passo a passo para desenvolver aplicações do zero até o deploy."
+        text="Nesta formação, eu percorri uma jornada do Curso React: desenvolvendo com JavaScript ao Curso React: migrando para TypeScript e aprendi o passo a passo para desenvolver aplicações do zero até o deploy."
         time="65h"
         tec={[
           'React',
