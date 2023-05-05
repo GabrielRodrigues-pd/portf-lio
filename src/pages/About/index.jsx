@@ -8,6 +8,9 @@ import { Footer } from '../../components/Footer'
 import { HeaderMobile } from '../../components/HeaderMobile'
 
 export function About() {
+
+  const linkCV = 'https://docs.google.com/document/d/1noyXhrGgMc48UEF7F7iiAOGTmzTDoUJb/edit?usp=share_link&ouid=105402968629841119483&rtpof=true&sd=true'
+
   return (
     <Container>
       <Header />
@@ -36,7 +39,7 @@ export function About() {
               Contato
             </a>
             <a
-              href="https://drive.google.com/file/d/1noyXhrGgMc48UEF7F7iiAOGTmzTDoUJb/view?usp=share_link"
+              href={linkCV}
               download="Currículo Virtual"
               target="_blank"
             >
