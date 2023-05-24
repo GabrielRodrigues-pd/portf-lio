@@ -39,7 +39,6 @@ export const Project = () => {
           view="https://rocketmovies-dev.netlify.app"
           git="https://github.com/GabrielRodrigues-pd/RockNotes-node"
         />
-
         <CardProject
           title="RocketNote"
           icon={<MdStickyNote2 size={30} />}

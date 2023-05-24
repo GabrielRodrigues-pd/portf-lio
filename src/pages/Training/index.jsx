@@ -68,10 +68,10 @@ export const Training = () => {
         tec={['React']}
       />
       <CardSkills
-        name="Angular parte 1 - Alura"
-        text="Neste curso eu pude conhecer o Angular e adquirir os fundamentos básicos, a base para decolar com o framework."
-        time="16h"
-        tec={['Angular']}
+        name="Alura Cursos"
+        text="Na Alura, encontrei um ambiente de aprendizado dinâmico e eficiente, que me proporciona acesso a uma vasta gama de cursos e trilhas de estudo. Desde o início, fiquei impressionado com a qualidade e a abrangência dos conteúdos oferecidos."
+        time="68h"
+        tec={['Angular', "TypeScript", "Next.JS", "Node.JS", "MongoDB", "HTTP"]}
       />
       <Footer />
       <Grid />
