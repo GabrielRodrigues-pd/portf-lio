@@ -9,7 +9,7 @@ import { HeaderMobile } from '../../components/HeaderMobile'
 
 export function About() {
 
-  const linkCV = 'https://docs.google.com/document/d/1noyXhrGgMc48UEF7F7iiAOGTmzTDoUJb/edit?usp=share_link&ouid=105402968629841119483&rtpof=true&sd=true'
+  const linkCV = 'https://drive.google.com/file/d/1egZLl3ignyT0gzuCTR6WmeXwfZfa_VWa/view?usp=sharing'
 
   return (
     <Container>
