@@ -14,7 +14,7 @@ export function Home() {
         <h1>Gabriel Rodrigues</h1>
         <p>
           Front-end Developer | UX/UI Design <br />
-          <span>Um programador, dedicado a mudar a realidade a sua volta.</span>
+          <span>Um programador dedicado a mudar a realidade a sua volta.</span>
         </p>
 
         <p className="location">Localizado em Patos - Paraíba</p>
