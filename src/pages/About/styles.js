@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { up, opacity, loop } from '../../styles/animation'
+import styled from "styled-components";
+import { up, opacity, loop } from "../../styles/animation";
 
 export const Container = styled.div`
   position: relative;
@@ -14,7 +14,7 @@ export const Container = styled.div`
   @media (max-width: 1015px) {
     height: 200vh;
   }
-`
+`;
 
 export const Section = styled.div`
   margin: 0 auto;
@@ -35,9 +35,9 @@ export const Section = styled.div`
     filter: drop-shadow(-19px 23px 0px rgba(17, 24, 24, 0.8));
     backdrop-filter: blur(1.5px);
     border-radius: 0.8rem;
-    transform: matrix(0.99, 0.13, 0.24, 0.97, 0, 0);
+    /* transform: matrix(0.99, 0.13, 0.24, 0.97, 0, 0); */
     margin-left: 6rem;
-    animation: 5s ${loop} ease-in-out infinite;
+    /* animation: 5s ${loop} ease-in-out infinite; */
     transition: 1ms;
 
     @media (max-width: 500px) {
@@ -89,7 +89,7 @@ export const Section = styled.div`
 
       &:nth-last-child(3) {
         &::after {
-          content: '';
+          content: "";
           width: 0.2rem;
           height: 2.3rem;
           background: linear-gradient(
@@ -127,4 +127,4 @@ export const Section = styled.div`
       }
     }
   }
-`
+`;
