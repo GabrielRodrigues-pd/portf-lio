@@ -1,15 +1,15 @@
-import { Container, Section } from './styles'
+import { Container, Section } from "./styles";
 
-import me from '../../assets/me.jpg'
+import me from "../../assets/me.jpg";
 
-import { Grid } from '../../components/Grid'
-import { Header } from '../../components/Header'
-import { Footer } from '../../components/Footer'
-import { HeaderMobile } from '../../components/HeaderMobile'
+import { Grid } from "../../components/Grid";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
+import { HeaderMobile } from "../../components/HeaderMobile";
 
 export function About() {
-
-  const linkCV = 'https://drive.google.com/file/d/1egZLl3ignyT0gzuCTR6WmeXwfZfa_VWa/view?usp=sharing'
+  const linkCV =
+    "https://drive.google.com/file/d/1egZLl3ignyT0gzuCTR6WmeXwfZfa_VWa/view?usp=sharing";
 
   return (
     <Container>
@@ -33,16 +33,12 @@ export function About() {
           </p>
           <div className="btn">
             <a
-              href="https://api.whatsapp.com/send?phone=5583996121185&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?"
+              href="https://api.whatsapp.com/send?phone=5583996566093&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?"
               target="_blank"
             >
               Contato
             </a>
-            <a
-              href={linkCV}
-              download="Currículo Virtual"
-              target="_blank"
-            >
+            <a href={linkCV} download="Currículo Virtual" target="_blank">
               Baixar CV
             </a>
           </div>
@@ -51,5 +47,5 @@ export function About() {
       <Grid />
       <Footer />
     </Container>
-  )
+  );
 }
