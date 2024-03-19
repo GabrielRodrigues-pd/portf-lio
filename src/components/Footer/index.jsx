@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Footer = () => {
   return (
@@ -18,7 +18,7 @@ export const Footer = () => {
             linkedin
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5583996121185&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?"
+            href="https://api.whatsapp.com/send?phone=5583996566093&text=Bem-vindo%20ao%20meu%20canal%20de%20atendimento%20pelo%20WhatsApp!%20Como%20posso%20ser%20%C3%BAtil%20para%20voc%C3%AA%20hoje?"
             target="_blank"
           >
             whatsapp
@@ -26,8 +26,8 @@ export const Footer = () => {
         </li>
       </ul>
     </Container>
-  )
-}
+  );
+};
 
 const Container = styled.footer`
   margin: 0 auto;
@@ -57,4 +57,4 @@ const Container = styled.footer`
       }
     }
   }
-`
+`;
