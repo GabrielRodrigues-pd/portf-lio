@@ -20,7 +20,7 @@ export function About() {
         <div>
           <h1>Sobre mim.</h1>
           <p>
-            Meu nome é <span>Gabriel</span>, tenho <span>20</span> anos e
+            Meu nome é <span>Gabriel</span>, tenho <span>21</span> anos e
             trabalho focado como desenvolvedor front-end.
           </p>
           <p>
